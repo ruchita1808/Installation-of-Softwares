@@ -1,0 +1,583 @@
+{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern Consolas;}{\f1\fmodern\fcharset0 Consolas;}{\f2\fmodern Wingdings;}{\f3\fmodern\fcharset2 Wingdings;}{\f4\fnil\fcharset129 Courier New;}{\f5\fmodern\fprq6\fcharset134 SimSun;}{\f6\fmodern\fcharset161 Consolas;}{\f7\fswiss\fcharset178 Tahoma;}{\f8\fmodern\fcharset178 Consolas;}{\f9\fmodern\fcharset177 Consolas;}{\f10\fmodern\fcharset129 Consolas;}{\f11\fmodern\fcharset0 Wingdings;}}
+{\colortbl ;\red20\green20\blue20;\red142\green142\blue142;\red16\green158\blue98;\red148\green146\blue12;\red170\green51\blue170;\red170\green64\blue64;\red56\green136\blue159;\red136\green202\blue222;\red12\green100\blue126;\red134\green216\blue181;\red9\green118\blue72;\red222\green222\blue136;\red126\green126\blue12;\red255\green175\blue175;\red18\green18\blue18;\red245\green245\blue245;\red170\green85\blue85;}
+\viewkind4\uc1\pard\ltrpar\f0\fs20      \u9484?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9488?\cf1\highlight2 
+\par \cf0\highlight0      \u9474?                \cf3\f1\bullet  MobaXterm Personal Edition v22.3 \bullet\cf0\f0                 \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474?              \cf4 (X server, SSH client and network tools)\cf0               \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474?                                                                    \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \u11166? Your computer drives are accessible through the \cf5 /drives\cf0  path     \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \u11166? Your DISPLAY is set to \cf5 192.168.29.239:0.0      \cf0                   \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \u11166? When using \cf5 SSH\cf0 , your remote DISPLAY is automatically forwarded   \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \u11166? Your \cf5 HOME\cf0  folder is not persistent: it will be erased on restart \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \u11166? Each command status is specified by a special symbol (\cf3\u10003?\cf0  or \cf6\u10007?\cf0 )    \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474?                                                                    \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \cf6\f1\bullet  Important:\cf0\f0                                                        \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \cf7 This is MobaXterm Personal Edition. The Professional edition\cf0        \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \cf7 allows you to customize MobaXterm for your company: you can add\cf0     \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \cf7 your own logo, your parameters, your welcome message and generate\cf0   \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \cf7 either an MSI installation package or a portable executable.\cf0        \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \cf7 We can also modify MobaXterm or develop the plugins you need.\cf0       \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9474? \cf4 For more information: \cf5\ul https://mobaxterm.mobatek.net/download.html\cf0\ulnone   \u9474?\cf1\highlight2 
+\par \cf0\highlight0      \u9492?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9496?\cf1\highlight2 
+\par 
+\par \highlight8  \f2 O\f0  18/04/2023 \cf9\highlight10\u9658?\cf1  \f3\'be\f0  00:09.04 \cf11\highlight12\u9658?\cf1  \f2 1\f0  /home/mobaxterm \cf13\highlight0\u9658?\cf0  cd desktop\cf1\highlight2 
+\par \cf0\highlight0                                                                                                                              \cf3\u10003?\cf1\highlight2 
+\par 
+\par \highlight8  \f2 O\f0  18/04/2023 \cf9\highlight10\u9658?\cf1  \f3\'be\f0  00:09.08 \cf11\highlight12\u9658?\cf1  \f2 1\f0  /home/mobaxterm/\cf9 desktop\cf1  \cf13\highlight14\u9658?\cf1  \f3\'b1\f0  master \cf6\highlight0\u9658?\cf0  ssh -i "My_instance_key.pem" ubuntu@ec2-44-201-183-120.compute-1.amazonaws.com\cf1\highlight2 
+\par \cf0\highlight0 The authenticity of host 'ec2-44-201-183-120.compute-1.amazonaws.com (44.201.183.120)' can't be established.\cf1\highlight2 
+\par \cf0\highlight0 ED25519 key fingerprint is SHA256:QkrErcQsIdzI/h4hsmMgeR0TC79RyZqYq7Bb++NCnmM.\cf1\highlight2 
+\par \cf0\highlight0 This key is not known by any other names\cf1\highlight2 
+\par \cf0\highlight0 Are you sure you want to continue connecting (yes/no/[fingerprint])? yes\cf1\highlight2 
+\par \cf0\highlight0 Warning: Permanently added 'ec2-44-201-183-120.compute-1.amazonaws.com' (ED25519) to the list of known hosts.\cf1\highlight2 
+\par \cf0\highlight0 Welcome to Ubuntu 22.04.2 LTS (GNU/Linux 5.15.0-1031-aws x86_64)\cf1\highlight2 
+\par 
+\par \cf0\highlight0  * Documentation:  https://help.ubuntu.com\cf1\highlight2 
+\par \cf0\highlight0  * Management:     https://landscape.canonical.com\cf1\highlight2 
+\par \cf0\highlight0  * Support:        https://ubuntu.com/advantage\cf1\highlight2 
+\par 
+\par \cf0\highlight0   System information as of Mon Apr 17 18:39:36 UTC 2023\cf1\highlight2 
+\par 
+\par \cf0\highlight0   System load:  0.025390625       Processes:             105\cf1\highlight2 
+\par \cf0\highlight0   Usage of /:   21.1% of 7.57GB   Users logged in:       0\cf1\highlight2 
+\par \cf0\highlight0   Memory usage: 21%               IPv4 address for eth0: 172.31.87.205\cf1\highlight2 
+\par \cf0\highlight0   Swap usage:   0%\cf1\highlight2 
+\par 
+\par \cf0\highlight0  * Introducing Expanded Security Maintenance for Applications.\cf1\highlight2 
+\par \cf0\highlight0    Receive updates to over 25,000 software packages with your\cf1\highlight2 
+\par \cf0\highlight0    Ubuntu Pro subscription. Free for personal use.\cf1\highlight2 
+\par 
+\par \cf0\highlight0      https://ubuntu.com/aws/pro\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Expanded Security Maintenance for Applications is not enabled.\cf1\highlight2 
+\par 
+\par \cf0\highlight0 0 updates can be applied immediately.\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Enable ESM Apps to receive additional future security updates.\cf1\highlight2 
+\par \cf0\highlight0 See https://ubuntu.com/esm or run: sudo pro status\cf1\highlight2 
+\par 
+\par 
+\par \cf0\highlight0 The list of available updates is more than a week old.\cf1\highlight2 
+\par \cf0\highlight0 To check for new updates run: sudo apt update\cf1\highlight2 
+\par 
+\par 
+\par \cf0\highlight0 The programs included with the Ubuntu system are free software;\cf1\highlight2 
+\par \cf0\highlight0 the exact distribution terms for each program are described in the\cf1\highlight2 
+\par \cf0\highlight0 individual files in /usr/share/doc/*/copyright.\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by\cf1\highlight2 
+\par \cf0\highlight0 applicable law.\cf1\highlight2 
+\par 
+\par \cf0\highlight0 /usr/bin/xauth:  file /home/ubuntu/.Xauthority does not exist\cf1\highlight2 
+\par \cf0\highlight0 To run a command as administrator (user "root"), use "sudo <command>".\cf1\highlight2 
+\par \cf0\highlight0 See "man sudo_root" for details.\cf1\highlight2 
+\par 
+\par \cf0\highlight0 ubuntu@ip-172-31-87-205:~$ sudo -i\cf1\highlight2 
+\par \cf0\highlight0 root@ip-172-31-87-205:~# apt update -y\cf1\highlight2 
+\par \cf0\highlight0 Hit:1 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy InRelease\cf1\highlight2 
+\par \cf0\highlight0 Get:2 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:3 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-backports InRelease [108 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:4 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:5 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]\cf1\highlight2 
+\par \cf0\highlight0 Get:6 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy/universe Translation-en [5652 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:7 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy/universe amd64 c-n-f Metadata [286 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:8 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [217 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:9 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy/multiverse Translation-en [112 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:10 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy/multiverse amd64 c-n-f Metadata [8372 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:11 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [995 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:12 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [212 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:13 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 c-n-f Metadata [14.0 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:14 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [748 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:15 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/restricted Translation-en [116 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:16 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 c-n-f Metadata [576 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:17 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [900 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:18 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [180 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:19 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [18.6 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:20 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [24.1 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:21 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [6312 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:22 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata [444 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:23 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [40.9 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:24 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-backports/main Translation-en [10.2 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:25 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-backports/main amd64 c-n-f Metadata [388 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:26 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 c-n-f Metadata [116 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:27 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [20.3 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:28 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en [14.4 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:29 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata [480 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:30 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 c-n-f Metadata [116 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:31 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [731 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:32 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [147 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:33 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [9028 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:34 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [705 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:35 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [110 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:36 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 c-n-f Metadata [576 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:37 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [717 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:38 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [118 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:39 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [14.2 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:40 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [19.4 kB]\cf1\highlight2 
+\par \cf0\highlight0 Get:41 http://security.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [4068 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:42 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 c-n-f Metadata [228 B]\cf1\highlight2 
+\par \cf0\highlight0 Fetched 26.6 MB in 5s (5653 kB/s)\cf1\highlight2 
+\par \cf0\highlight0 Reading package lists... Done\cf1\highlight2 
+\par \cf0\highlight0 Building dependency tree... Done\cf1\highlight2 
+\par \cf0\highlight0 Reading state information... Done\cf1\highlight2 
+\par \cf0\highlight0 27 packages can be upgraded. Run 'apt list --upgradable' to see them.\cf1\highlight2 
+\par \cf0\highlight0 root@ip-172-31-87-205:~# hostnamectl set-hostname nizmdsp01\cf1\highlight2 
+\par \cf0\highlight0 root@ip-172-31-87-205:~# sudo -i\cf1\highlight2 
+\par \cf0\highlight0 root@nizmdsp01:~# $ curl -fsSL https://download.arangodb.com/arangodb38/DEBIAN/Release.key | sudo apt-key add -\cf1\highlight2 
+\par \cf0\highlight0 Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead (see apt-key(8)).\cf1\highlight2 
+\par \cf0\highlight0 $: command not found\cf1\highlight2 
+\par \cf0\highlight0 gpg: no valid OpenPGP data found.\cf1\highlight2 
+\par \cf0\highlight0 root@nizmdsp01:~# $ echo 'deb https://download.arangodb.com/arangodb38/DEBIAN/ /' | sudo tee /etc/apt/sources.list.d/arangodb.list\cf1\highlight2 
+\par \cf0\highlight0 $: command not found\cf1\highlight2 
+\par \cf0\highlight0 root@nizmdsp01:~# curl -OL https://download.arangodb.com/arangodb310/DEBIAN/Release.key\cf1\highlight2 
+\par \cf0\highlight0 sudo apt-key add - < Release.key\cf1\highlight2 
+\par \cf0\highlight0   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\cf1\highlight2 
+\par \cf0\highlight0                                  Dload  Upload   Total   Spent    Left  Speed\cf1\highlight2 
+\par \cf0\highlight0 100  4747  100  4747    0     0  29626      0 --:--:-- --:--:-- --:--:-- 29668\cf1\highlight2 
+\par \cf0\highlight0 Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead (see apt-key(8)).\cf1\highlight2 
+\par \cf0\highlight0 OK\cf1\highlight2 
+\par \cf0\highlight0 root@nizmdsp01:~# echo 'deb https://download.arangodb.com/arangodb310/DEBIAN/ /' | sudo tee /etc/apt/sources.list.d/arangodb.list\cf1\highlight2 
+\par \cf0\highlight0 deb https://download.arangodb.com/arangodb310/DEBIAN/ /\cf1\highlight2 
+\par \cf0\highlight0 root@nizmdsp01:~# sudo apt-get install apt-transport-https\cf1\highlight2 
+\par \cf0\highlight0 sudo apt-get update\cf1\highlight2 
+\par \cf0\highlight0 sudo apt-get install arangodb3=3.10.5-1\cf1\highlight2 
+\par \cf0\highlight0 Reading package lists... Done\cf1\highlight2 
+\par \cf0\highlight0 Building dependency tree... Done\cf1\highlight2 
+\par \cf0\highlight0 Reading state information... Done\cf1\highlight2 
+\par \cf0\highlight0 The following NEW packages will be installed:\cf1\highlight2 
+\par \cf0\highlight0   apt-transport-https\cf1\highlight2 
+\par \cf0\highlight0 0 upgraded, 1 newly installed, 0 to remove and 27 not upgraded.\cf1\highlight2 
+\par \cf0\highlight0 Need to get 1506 B of archives.\cf1\highlight2 
+\par \cf0\highlight0 After this operation, 169 kB of additional disk space will be used.\cf1\highlight2 
+\par \cf0\highlight0 Get:1 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 apt-transport-https all 2.4.8 [1506 B]\cf1\highlight2 
+\par \cf0\highlight0 Fetched 1506 B in 0s (84.7 kB/s)\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package apt-transport-https.\cf1\highlight2 
+\par \cf0\highlight0 (Reading database ... 63657 files and directories currently installed.)\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../apt-transport-https_2.4.8_all.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking apt-transport-https (2.4.8) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up apt-transport-https (2.4.8) ...\cf1\highlight2 
+\par \cf0\highlight0 Scanning processes...\cf1\highlight2 
+\par \cf0\highlight0 Scanning linux images...\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Running kernel seems to be up-to-date.\cf1\highlight2 
+\par 
+\par \cf0\highlight0 No services need to be restarted.\cf1\highlight2 
+\par 
+\par \cf0\highlight0 No containers need to be restarted.\cf1\highlight2 
+\par 
+\par \cf0\highlight0 No user sessions are running outdated binaries.\cf1\highlight2 
+\par 
+\par \cf0\highlight0 No VM guests are running outdated hypervisor (qemu) binaries on this host.\cf1\highlight2 
+\par \cf0\highlight0 Hit:1 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy InRelease\cf1\highlight2 
+\par \cf0\highlight0 Hit:2 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-updates InRelease\cf1\highlight2 
+\par \cf0\highlight0 Hit:3 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy-backports InRelease\cf1\highlight2 
+\par \cf0\highlight0 Hit:4 http://security.ubuntu.com/ubuntu jammy-security InRelease\cf1\highlight2 
+\par \cf0\highlight0 Ign:5 https://download.arangodb.com/arangodb310/DEBIAN  InRelease\cf1\highlight2 
+\par \cf0\highlight0 Get:6 https://download.arangodb.com/arangodb310/DEBIAN  Release [1208 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:7 https://download.arangodb.com/arangodb310/DEBIAN  Release.gpg [833 B]\cf1\highlight2 
+\par \cf0\highlight0 Get:8 https://download.arangodb.com/arangodb310/DEBIAN  Packages [12.9 kB]\cf1\highlight2 
+\par \cf0\highlight0 Fetched 15.0 kB in 1s (18.7 kB/s)\cf1\highlight2 
+\par \cf0\highlight0 Reading package lists... Done\cf1\highlight2 
+\par \cf0\highlight0 W: https://download.arangodb.com/arangodb310/DEBIAN/Release.gpg: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.\cf1\highlight2 
+\par \cf0\highlight0 Reading package lists... Done\cf1\highlight2 
+\par \cf0\highlight0 Building dependency tree... Done\cf1\highlight2 
+\par \cf0\highlight0 Reading state information... Done\cf1\highlight2 
+\par \cf0\highlight0 The following NEW packages will be installed:\cf1\highlight2 
+\par \cf0\highlight0   arangodb3\cf1\highlight2 
+\par \cf0\highlight0 0 upgraded, 1 newly installed, 0 to remove and 27 not upgraded.\cf1\highlight2 
+\par \cf0\highlight0 Need to get 173 MB of archives.\cf1\highlight2 
+\par \cf0\highlight0 After this operation, 347 MB of additional disk space will be used.\cf1\highlight2 
+\par \cf0\highlight0 Get:1 https://download.arangodb.com/arangodb310/DEBIAN  arangodb3 3.10.5-1 [173 MB]\cf1\highlight2 
+\par \cf0\highlight0 Fetched 173 MB in 3s (59.6 MB/s)\cf1\highlight2 
+\par \cf0\highlight0 Preconfiguring packages ...\cf1\highlight2 
+\par \cf0\highlight0 Selecting previously unselected package arangodb3.\cf1\highlight2 
+\par \cf0\highlight0 (Reading database ... 63661 files and directories currently installed.)\cf1\highlight2 
+\par \cf0\highlight0 Preparing to unpack .../arangodb3_3.10.5-1_amd64.deb ...\cf1\highlight2 
+\par \cf0\highlight0 Unpacking arangodb3 (3.10.5-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Setting up arangodb3 (3.10.5-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Database files are up-to-date.\cf1\highlight2 
+\par \cf0\highlight0 Created symlink /etc/systemd/system/multi-user.target.wants/arangodb3.service \u8594? /lib/systemd/system/arangodb3.service.\cf1\highlight2 
+\par \cf0\highlight0 Processing triggers for man-db (2.10.2-1) ...\cf1\highlight2 
+\par \cf0\highlight0 Scanning processes...\cf1\highlight2 
+\par \cf0\highlight0 Scanning linux images...\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Running kernel seems to be up-to-date.\cf1\highlight2 
+\par 
+\par \cf0\highlight0 No services need to be restarted.\cf1\highlight2 
+\par 
+\par \cf0\highlight0 No containers need to be restarted.\cf1\highlight2 
+\par 
+\par \cf0\highlight0 No user sessions are running outdated binaries.\cf1\highlight2 
+\par 
+\par \cf0\highlight0 No VM guests are running outdated hypervisor (qemu) binaries on this host.\cf1\highlight2 
+\par \cf0\highlight0 root@nizmdsp01:~# systemctl start arangodb3\cf1\highlight2 
+\par \cf0\highlight0 root@nizmdsp01:~# systemctl enable arangodb3\cf1\highlight2 
+\par \cf0\highlight0 Synchronizing state of arangodb3.service with SysV service script with /lib/systemd/systemd-sysv-install.\cf1\highlight2 
+\par \cf0\highlight0 Executing: /lib/systemd/systemd-sysv-install enable arangodb3\cf1\highlight2 
+\par \cf0\highlight0 root@nizmdsp01:~# systemctl status arangodb3\cf1\highlight2 
+\par \cf3\highlight0\u9679?\cf0  arangodb3.service - ArangoDB database server\cf1\highlight2 
+\par \cf0\highlight0      Loaded: loaded (/lib/systemd/system/arangodb3.service; enabled; vendor preset: enabled)\cf1\highlight2 
+\par \cf0\highlight0      Active: \cf3 active (running)\cf0  since Mon 2023-04-17 18:45:24 UTC; 1min 12s ago\cf1\highlight2 
+\par \cf0\highlight0    Main PID: 2489 (arangod)\cf1\highlight2 
+\par \cf0\highlight0       Tasks: 28 (limit: 131072)\cf1\highlight2 
+\par \cf0\highlight0      Memory: 159.8M\cf1\highlight2 
+\par \cf0\highlight0         CPU: 1.223s\cf1\highlight2 
+\par \cf0\highlight0      CGroup: /system.slice/arangodb3.service\cf1\highlight2 
+\par \cf0\highlight0              \u9492?\u9472?2489 /usr/sbin/arangod --uid arangodb --gid arangodb --pid-file /var/run/arangodb3/arangod.pid --temp.path /va\cf15\highlight16 >\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Apr 17 18:45:24 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [75ddc] \{general\} detected operating system: Linux \cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:24 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [25362] \{memory\} Available physical memory: 1013133\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [a1c60] \{syscall\} file-descriptors (nofiles) hard l\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [3bb7d] \{cluster\} Starting up with role SINGLE\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [f6e0e] \{aql\} memory limit per AQL query automatica\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [fe333] \{engines\} RocksDB recovery starting, scanni\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [a4ec8] \{engines\} RocksDB recovery finished, WAL en\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [c1b63] \{arangosearch\} ArangoSearch maintenance: [1\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [6ea38] \{general\} using endpoint 'http+tcp://127.0.\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [cf3f4] \{general\} ArangoDB (version 3.10.5 [linux])\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 ...skipping...\cf1\highlight2 
+\par \cf3\highlight0\u9679?\cf0  arangodb3.service - ArangoDB database server\cf1\highlight2 
+\par \cf0\highlight0      Loaded: loaded (/lib/systemd/system/arangodb3.service; enabled; vendor preset: enabled)\cf1\highlight2 
+\par \cf0\highlight0      Active: \cf3 active (running)\cf0  since Mon 2023-04-17 18:45:24 UTC; 1min 12s ago\cf1\highlight2 
+\par \cf0\highlight0    Main PID: 2489 (arangod)\cf1\highlight2 
+\par \cf0\highlight0       Tasks: 28 (limit: 131072)\cf1\highlight2 
+\par \cf0\highlight0      Memory: 159.8M\cf1\highlight2 
+\par \cf0\highlight0         CPU: 1.223s\cf1\highlight2 
+\par \cf0\highlight0      CGroup: /system.slice/arangodb3.service\cf1\highlight2 
+\par \cf0\highlight0              \u9492?\u9472?2489 /usr/sbin/arangod --uid arangodb --gid arangodb --pid-file /var/run/arangodb3/arangod.pid --temp.path /va\cf15\highlight16 >\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Apr 17 18:45:24 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [75ddc] \{general\} detected operating system: Linux \cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:24 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [25362] \{memory\} Available physical memory: 1013133\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [a1c60] \{syscall\} file-descriptors (nofiles) hard l\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [3bb7d] \{cluster\} Starting up with role SINGLE\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [f6e0e] \{aql\} memory limit per AQL query automatica\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [fe333] \{engines\} RocksDB recovery starting, scanni\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [a4ec8] \{engines\} RocksDB recovery finished, WAL en\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [c1b63] \{arangosearch\} ArangoSearch maintenance: [1\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [6ea38] \{general\} using endpoint 'http+tcp://127.0.\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [cf3f4] \{general\} ArangoDB (version 3.10.5 [linux])\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0 ...skipping...\cf1\highlight2 
+\par \cf3\highlight0\u9679?\cf0  arangodb3.service - ArangoDB database server\cf1\highlight2 
+\par \cf0\highlight0      Loaded: loaded (/lib/systemd/system/arangodb3.service; enabled; vendor preset: enabled)\cf1\highlight2 
+\par \cf0\highlight0      Active: \cf3 active (running)\cf0  since Mon 2023-04-17 18:45:24 UTC; 1min 12s ago\cf1\highlight2 
+\par \cf0\highlight0    Main PID: 2489 (arangod)\cf1\highlight2 
+\par \cf0\highlight0       Tasks: 28 (limit: 131072)\cf1\highlight2 
+\par \cf0\highlight0      Memory: 159.8M\cf1\highlight2 
+\par \cf0\highlight0         CPU: 1.223s\cf1\highlight2 
+\par \cf0\highlight0      CGroup: /system.slice/arangodb3.service\cf1\highlight2 
+\par \cf0\highlight0              \u9492?\u9472?2489 /usr/sbin/arangod --uid arangodb --gid arangodb --pid-file /var/run/arangodb3/arangod.pid --temp.path /va\cf15\highlight16 >\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Apr 17 18:45:24 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [75ddc] \{general\} detected operating system: Linux \cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:24 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [25362] \{memory\} Available physical memory: 1013133\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [a1c60] \{syscall\} file-descriptors (nofiles) hard l\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [3bb7d] \{cluster\} Starting up with role SINGLE\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [f6e0e] \{aql\} memory limit per AQL query automatica\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [fe333] \{engines\} RocksDB recovery starting, scanni\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [a4ec8] \{engines\} RocksDB recovery finished, WAL en\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [c1b63] \{arangosearch\} ArangoSearch maintenance: [1\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [6ea38] \{general\} using endpoint 'http+tcp://127.0.\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [cf3f4] \{general\} ArangoDB (version 3.10.5 [linux])\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0 ...skipping...\cf1\highlight2 
+\par \cf3\highlight0\u9679?\cf0  arangodb3.service - ArangoDB database server\cf1\highlight2 
+\par \cf0\highlight0      Loaded: loaded (/lib/systemd/system/arangodb3.service; enabled; vendor preset: enabled)\cf1\highlight2 
+\par \cf0\highlight0      Active: \cf3 active (running)\cf0  since Mon 2023-04-17 18:45:24 UTC; 1min 12s ago\cf1\highlight2 
+\par \cf0\highlight0    Main PID: 2489 (arangod)\cf1\highlight2 
+\par \cf0\highlight0       Tasks: 28 (limit: 131072)\cf1\highlight2 
+\par \cf0\highlight0      Memory: 159.8M\cf1\highlight2 
+\par \cf0\highlight0         CPU: 1.223s\cf1\highlight2 
+\par \cf0\highlight0      CGroup: /system.slice/arangodb3.service\cf1\highlight2 
+\par \cf0\highlight0              \u9492?\u9472?2489 /usr/sbin/arangod --uid arangodb --gid arangodb --pid-file /var/run/arangodb3/arangod.pid --temp.path /va\cf15\highlight16 >\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Apr 17 18:45:24 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [75ddc] \{general\} detected operating system: Linux \cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:24 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [25362] \{memory\} Available physical memory: 1013133\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [a1c60] \{syscall\} file-descriptors (nofiles) hard l\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [3bb7d] \{cluster\} Starting up with role SINGLE\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [f6e0e] \{aql\} memory limit per AQL query automatica\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [fe333] \{engines\} RocksDB recovery starting, scanni\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [a4ec8] \{engines\} RocksDB recovery finished, WAL en\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [c1b63] \{arangosearch\} ArangoSearch maintenance: [1\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [6ea38] \{general\} using endpoint 'http+tcp://127.0.\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [cf3f4] \{general\} ArangoDB (version 3.10.5 [linux])\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0 ...skipping...\cf1\highlight2 
+\par \cf3\highlight0\u9679?\cf0  arangodb3.service - ArangoDB database server\cf1\highlight2 
+\par \cf0\highlight0      Loaded: loaded (/lib/systemd/system/arangodb3.service; enabled; vendor preset: enabled)\cf1\highlight2 
+\par \cf0\highlight0      Active: \cf3 active (running)\cf0  since Mon 2023-04-17 18:45:24 UTC; 1min 12s ago\cf1\highlight2 
+\par \cf0\highlight0    Main PID: 2489 (arangod)\cf1\highlight2 
+\par \cf0\highlight0       Tasks: 28 (limit: 131072)\cf1\highlight2 
+\par \cf0\highlight0      Memory: 159.8M\cf1\highlight2 
+\par \cf0\highlight0         CPU: 1.223s\cf1\highlight2 
+\par \cf0\highlight0      CGroup: /system.slice/arangodb3.service\cf1\highlight2 
+\par \cf0\highlight0              \u9492?\u9472?2489 /usr/sbin/arangod --uid arangodb --gid arangodb --pid-file /var/run/arangodb3/arangod.pid --temp.path /va\cf15\highlight16 >\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Apr 17 18:45:24 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [75ddc] \{general\} detected operating system: Linux \cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:24 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [25362] \{memory\} Available physical memory: 1013133\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [a1c60] \{syscall\} file-descriptors (nofiles) hard l\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [3bb7d] \{cluster\} Starting up with role SINGLE\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [f6e0e] \{aql\} memory limit per AQL query automatica\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [fe333] \{engines\} RocksDB recovery starting, scanni\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [a4ec8] \{engines\} RocksDB recovery finished, WAL en\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [c1b63] \{arangosearch\} ArangoSearch maintenance: [1\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [6ea38] \{general\} using endpoint 'http+tcp://127.0.\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [cf3f4] \{general\} ArangoDB (version 3.10.5 [linux])\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0 ...skipping...\cf1\highlight2 
+\par \cf3\highlight0\u9679?\cf0  arangodb3.service - ArangoDB database server\cf1\highlight2 
+\par \cf0\highlight0      Loaded: loaded (/lib/systemd/system/arangodb3.service; enabled; vendor preset: enabled)\cf1\highlight2 
+\par \cf0\highlight0      Active: \cf3 active (running)\cf0  since Mon 2023-04-17 18:45:24 UTC; 1min 12s ago\cf1\highlight2 
+\par \cf0\highlight0    Main PID: 2489 (arangod)\cf1\highlight2 
+\par \cf0\highlight0       Tasks: 28 (limit: 131072)\cf1\highlight2 
+\par \cf0\highlight0      Memory: 159.8M\cf1\highlight2 
+\par \cf0\highlight0         CPU: 1.223s\cf1\highlight2 
+\par \cf0\highlight0      CGroup: /system.slice/arangodb3.service\cf1\highlight2 
+\par \cf0\highlight0              \u9492?\u9472?2489 /usr/sbin/arangod --uid arangodb --gid arangodb --pid-file /var/run/arangodb3/arangod.pid --temp.path /va\cf15\highlight16 >\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Apr 17 18:45:24 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [75ddc] \{general\} detected operating system: Linux \cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:24 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [25362] \{memory\} Available physical memory: 1013133\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [a1c60] \{syscall\} file-descriptors (nofiles) hard l\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [3bb7d] \{cluster\} Starting up with role SINGLE\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [f6e0e] \{aql\} memory limit per AQL query automatica\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [fe333] \{engines\} RocksDB recovery starting, scanni\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [a4ec8] \{engines\} RocksDB recovery finished, WAL en\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [c1b63] \{arangosearch\} ArangoSearch maintenance: [1\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [6ea38] \{general\} using endpoint 'http+tcp://127.0.\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [cf3f4] \{general\} ArangoDB (version 3.10.5 [linux])\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0 ...skipping...\cf1\highlight2 
+\par \cf3\highlight0\u9679?\cf0  arangodb3.service - ArangoDB database server\cf1\highlight2 
+\par \cf0\highlight0      Loaded: loaded (/lib/systemd/system/arangodb3.service; enabled; vendor preset: enabled)\cf1\highlight2 
+\par \cf0\highlight0      Active: \cf3 active (running)\cf0  since Mon 2023-04-17 18:45:24 UTC; 1min 12s ago\cf1\highlight2 
+\par \cf0\highlight0    Main PID: 2489 (arangod)\cf1\highlight2 
+\par \cf0\highlight0       Tasks: 28 (limit: 131072)\cf1\highlight2 
+\par \cf0\highlight0      Memory: 159.8M\cf1\highlight2 
+\par \cf0\highlight0         CPU: 1.223s\cf1\highlight2 
+\par \cf0\highlight0      CGroup: /system.slice/arangodb3.service\cf1\highlight2 
+\par \cf0\highlight0              \u9492?\u9472?2489 /usr/sbin/arangod --uid arangodb --gid arangodb --pid-file /var/run/arangodb3/arangod.pid --temp.path /va\cf15\highlight16 >\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Apr 17 18:45:24 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [75ddc] \{general\} detected operating system: Linux \cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:24 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [25362] \{memory\} Available physical memory: 1013133\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:24Z [2489] INFO [a1c60] \{syscall\} file-descriptors (nofiles) hard l\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [3bb7d] \{cluster\} Starting up with role SINGLE\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [f6e0e] \{aql\} memory limit per AQL query automatica\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [fe333] \{engines\} RocksDB recovery starting, scanni\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:25 nizmdsp01 arangod[2489]: 2023-04-17T18:45:25Z [2489] INFO [a4ec8] \{engines\} RocksDB recovery finished, WAL en\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [c1b63] \{arangosearch\} ArangoSearch maintenance: [1\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [6ea38] \{general\} using endpoint 'http+tcp://127.0.\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 18:45:27 nizmdsp01 arangod[2489]: 2023-04-17T18:45:27Z [2489] INFO [cf3f4] \{general\} ArangoDB (version 3.10.5 [linux])\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf0\highlight0\b ~\cf1\highlight2\b0 
+\par \cf15\highlight16 lines 1-20/20 (END)\cf1\highlight2 
+\par \cf0\highlight0 [1]+  Stopped                 systemctl status arangodb3\cf1\highlight2 
+\par \cf15\highlight16 lines 1-20/20 (END)\cf1\highlight2 
+\par \cf0\highlight0 root@nizmdsp01:~# arangosh\cf1\highlight2 
+\par \cf0\highlight0 Please specify a password:\cf1\highlight2 
+\par 
+\par \cf11\highlight0                                   \cf6      _\cf1\highlight2 
+\par \cf11\highlight0   __ _ _ __ __ _ _ __   __ _  ___ \cf6  ___| |__\cf1\highlight2 
+\par \cf11\highlight0  / _` | '__/ _` | '_ \\ / _` |/ _ \\\cf6 / __| '_ \\\cf1\highlight2 
+\par \cf11\highlight0 | (_| | | | (_| | | | | (_| | (_) \cf6\\__ \\ | | |\cf1\highlight2 
+\par \cf11\highlight0  \\__,_|_|  \\__,_|_| |_|\\__, |\\___/\cf6 |___/_| |_|\cf1\highlight2 
+\par \cf11\highlight0                        |___/\cf1\highlight2 
+\par 
+\par \cf0\highlight0 arangosh (ArangoDB 3.10.5 [linux] 64bit, using jemalloc, build tags/v3.10.5-0-g15ff59113a0, VPack 0.1.36, RocksDB 7.2.0, ICU 64.2, V8 7.9.317, OpenSSL 1.1.1t  7 Feb 2023)\cf1\highlight2 
+\par \cf0\highlight0 Copyright (c) ArangoDB GmbH\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Command-line history will be persisted when the shell is exited. You can use `--console.history false` to turn this off\cf1\highlight2 
+\par \cf0\highlight0 Could not connect to endpoint 'tcp://127.0.0.1:8529', database: '_system', username: 'root'\cf1\highlight2 
+\par \cf0\highlight0 Error message: 'not authorized to execute this request'\cf1\highlight2 
+\par 
+\par \cf17\highlight0 127.0.0.1:8529@_system> \cf0 db.createDatabase("dbone");\cf1\highlight2 
+\par \cf0\highlight0 JavaScript exception: TypeError: db.createDatabase is not a function\cf1\highlight2 
+\par \cf0\highlight0 !db.createDatabase("dbone");\cf1\highlight2 
+\par \cf0\highlight0 !   ^\cf1\highlight2 
+\par \cf0\highlight0 stacktrace: TypeError: db.createDatabase is not a function\cf1\highlight2 
+\par \cf0\highlight0     at <shell command>:1:4\cf1\highlight2 
+\par 
+\par 
+\par \cf17\highlight0 127.0.0.1:8529@_system> \cf0 db._createDatabase("dbone")\cf1\highlight2 
+\par \cf0\highlight0 JavaScript exception in file '/usr/share/arangodb3/js/client/modules/@arangodb/arango-database.js' at 1025,40: ArangoError 2001: not connected\cf1\highlight2 
+\par \cf0\highlight0 !  let requestResult = this._connection.POST('/_api/database', data);\cf1\highlight2 
+\par \cf0\highlight0 !                                       ^\cf1\highlight2 
+\par \cf0\highlight0 stacktrace: ArangoError: not connected\cf1\highlight2 
+\par \cf0\highlight0     at Proxy.ArangoDatabase._createDatabase (/usr/share/arangodb3/js/client/modules/@arangodb/arango-database.js:1025:40)\cf1\highlight2 
+\par \cf0\highlight0     at <shell command>:1:4\cf1\highlight2 
+\par 
+\par 
+\par \cf17\highlight0 127.0.0.1:8529@_system> \cf0 db._databases()\cf1\highlight2 
+\par \cf0\highlight0 JavaScript exception in file '/usr/share/arangodb3/js/client/modules/@arangodb/arango-database.js' at 1055,40: ArangoError 2001: not connected\cf1\highlight2 
+\par \cf0\highlight0 !  let requestResult = this._connection.GET('/_api/database');\cf1\highlight2 
+\par \cf0\highlight0 !                                       ^\cf1\highlight2 
+\par \cf0\highlight0 stacktrace: ArangoError: not connected\cf1\highlight2 
+\par \cf0\highlight0     at Proxy.ArangoDatabase._databases (/usr/share/arangodb3/js/client/modules/@arangodb/arango-database.js:1055:40)\cf1\highlight2 
+\par \cf0\highlight0     at <shell command>:1:4\cf1\highlight2 
+\par 
+\par 
+\par \cf17\highlight0 127.0.0.1:8529@_system> \cf0 db._createDatabase("tbtwo")\cf1\highlight2 
+\par \cf0\highlight0 JavaScript exception in file '/usr/share/arangodb3/js/client/modules/@arangodb/arango-database.js' at 1025,40: ArangoError 2001: not connected\cf1\highlight2 
+\par \cf0\highlight0 !  let requestResult = this._connection.POST('/_api/database', data);\cf1\highlight2 
+\par \cf0\highlight0 !                                       ^\cf1\highlight2 
+\par \cf0\highlight0 stacktrace: ArangoError: not connected\cf1\highlight2 
+\par \cf0\highlight0     at Proxy.ArangoDatabase._createDatabase (/usr/share/arangodb3/js/client/modules/@arangodb/arango-database.js:1025:40)\cf1\highlight2 
+\par \cf0\highlight0     at <shell command>:1:4\cf1\highlight2 
+\par 
+\par 
+\par \cf17\highlight0 127.0.0.1:8529@_system> \cf0 db._databases()\cf1\highlight2 
+\par \cf0\highlight0 JavaScript exception in file '/usr/share/arangodb3/js/client/modules/@arangodb/arango-database.js' at 1055,40: ArangoError 2001: not connected\cf1\highlight2 
+\par \cf0\highlight0 !  let requestResult = this._connection.GET('/_api/database');\cf1\highlight2 
+\par \cf0\highlight0 !                                       ^\cf1\highlight2 
+\par \cf0\highlight0 stacktrace: ArangoError: not connected\cf1\highlight2 
+\par \cf0\highlight0     at Proxy.ArangoDatabase._databases (/usr/share/arangodb3/js/client/modules/@arangodb/arango-database.js:1055:40)\cf1\highlight2 
+\par \cf0\highlight0     at <shell command>:1:4\cf1\highlight2 
+\par 
+\par 
+\par \cf17\highlight0 127.0.0.1:8529@_system>\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Uf wiederluege! \f4\'ee\'a2\f5\'bc\'fb\f4\'a3\'a1\f1  Na shledanou! Auf Wiedersehen! Bye Bye! Adiau! \'a1Hasta luego! \f6\'c5\'e9\'f2\f0  \f6\'f4\'ef\f0  \f6\'e5\'f0\'e1\'ed\'e9\'e4\'e5\'df\'ed\f0 ! \f7\rtlch\'c1\f8\'c7\'de\'e1\'e1\'c7 \'ec\'e1\'c5\cf1\highlight2\f1\ltrch 
+\par \cf0\highlight0\f9\rtlch\'ec\'e4\'fa\'f8\'e0\'e5\'fa\f1\ltrch ! Arrivederci! Tot ziens! Adj\'f6! Au revoir! \u12373?\u12424?\u12358?\u12394?\u12425? \u1044?\u1086? \u1089?\u1074?\u1080?\u1076?\u1072?\u1085?\u1080?\u1103?! At\'e9 Breve! \f8\rtlch\'ce\'cf\'c7\'cd\'c7\'dd\'d9\f1\ltrch ! Uz redz\u275?\'9aanos! \u4328?\u4308?\u4334?\u4309?\u4308?\u4307?\u4320?\u4304?\u4315?\u4307?\u4308? \f10\'be\'c8\'b3\'e7\'c8\'f7 \'b0\'a1\'bc\'bc\'bf\'e4\f1 ! Sampai jumpa!\cf1\highlight2 
+\par \cf0\highlight0 root@nizmdsp01:~# 172.31.87.205\cf1\highlight2 
+\par \cf0\highlight0 172.31.87.205: command not found\cf1\highlight2 
+\par \cf0\highlight0 root@nizmdsp01:~# vim /etc/arangodb3/arangod.conf\cf1\highlight2 
+\par \cf0\highlight0 root@nizmdsp01:~# systemctl restart arangodb3\cf1\highlight2 
+\par \cf0\highlight0 root@nizmdsp01:~# systemctl status arangodb3\cf1\highlight2 
+\par \cf3\highlight0\u9679?\cf0  arangodb3.service - ArangoDB database server\cf1\highlight2 
+\par \cf0\highlight0      Loaded: loaded (/lib/systemd/system/arangodb3.service; enabled; vendor preset: enabled)\cf1\highlight2 
+\par \cf0\highlight0      Active: \cf3 active (running)\cf0  since Mon 2023-04-17 19:00:37 UTC; 3min 47s ago\cf1\highlight2 
+\par \cf0\highlight0     Process: 9906 ExecStartPre=/usr/bin/install -g arangodb -o arangodb -d /var/tmp/arangodb3 (code=exited, status=0/SUCCESS)\cf1\highlight2 
+\par \cf0\highlight0     Process: 9907 ExecStartPre=/usr/bin/install -g arangodb -o arangodb -d /var/run/arangodb3 (code=exited, status=0/SUCCESS)\cf1\highlight2 
+\par \cf0\highlight0     Process: 9908 ExecStartPre=/usr/bin/env chown -R arangodb:arangodb /var/log/arangodb3 (code=exited, status=0/SUCCESS)\cf1\highlight2 
+\par \cf0\highlight0     Process: 9909 ExecStartPre=/usr/bin/env chmod 700 /var/log/arangodb3 (code=exited, status=0/SUCCESS)\cf1\highlight2 
+\par \cf0\highlight0     Process: 9910 ExecStartPre=/usr/bin/env chown -R arangodb:arangodb /var/lib/arangodb3 (code=exited, status=0/SUCCESS)\cf1\highlight2 
+\par \cf0\highlight0     Process: 9911 ExecStartPre=/usr/bin/env chmod 700 /var/lib/arangodb3 (code=exited, status=0/SUCCESS)\cf1\highlight2 
+\par \cf0\highlight0     Process: 9912 ExecStartPre=/usr/bin/env chown -R arangodb:arangodb /var/lib/arangodb3-apps (code=exited, status=0/SUCCESS)\cf1\highlight2 
+\par \cf0\highlight0     Process: 9913 ExecStartPre=/usr/bin/env chmod 700 /var/lib/arangodb3-apps (code=exited, status=0/SUCCESS)\cf1\highlight2 
+\par \cf0\highlight0    Main PID: 9914 (arangod)\cf1\highlight2 
+\par \cf0\highlight0       Tasks: 28 (limit: 131072)\cf1\highlight2 
+\par \cf0\highlight0      Memory: 164.4M\cf1\highlight2 
+\par \cf0\highlight0         CPU: 2.155s\cf1\highlight2 
+\par \cf0\highlight0      CGroup: /system.slice/arangodb3.service\cf1\highlight2 
+\par \cf0\highlight0              \u9492?\u9472?9914 /usr/sbin/arangod --uid arangodb --gid arangodb --pid-file /var/run/arangodb3/arangod.pid --temp.path /va\cf15\highlight16 >\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Apr 17 19:00:37 nizmdsp01 arangod[9914]: 2023-04-17T19:00:37Z [9914] INFO [75ddc] \{general\} detected operating system: Linux \cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 19:00:37 nizmdsp01 arangod[9914]: 2023-04-17T19:00:37Z [9914] INFO [25362] \{memory\} Available physical memory: 1013133\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 19:00:37 nizmdsp01 arangod[9914]: 2023-04-17T19:00:37Z [9914] INFO [a1c60] \{syscall\} file-descriptors (nofiles) hard l\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 19:00:37 nizmdsp01 arangod[9914]: 2023-04-17T19:00:37Z [9914] INFO [3bb7d] \{cluster\} Starting up with role SINGLE\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 19:00:37 nizmdsp01 arangod[9914]: 2023-04-17T19:00:37Z [9914] INFO [f6e0e] \{aql\} memory limit per AQL query automatica\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 19:00:37 nizmdsp01 arangod[9914]: 2023-04-17T19:00:37Z [9914] INFO [fe333] \{engines\} RocksDB recovery starting, scanni\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 19:00:37 nizmdsp01 arangod[9914]: 2023-04-17T19:00:37Z [9914] INFO [a4ec8] \{engines\} RocksDB recovery finished, WAL en\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 19:00:38 nizmdsp01 arangod[9914]: 2023-04-17T19:00:38Z [9914] INFO [c1b63] \{arangosearch\} ArangoSearch maintenance: [1\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 19:00:38 nizmdsp01 arangod[9914]: 2023-04-17T19:00:38Z [9914] INFO [6ea38] \{general\} using endpoint 'http+tcp://127.0.\cf15\highlight16 >\cf1\highlight2 
+\par \cf0\highlight0 Apr 17 19:00:39 nizmdsp01 arangod[9914]: 2023-04-17T19:00:39Z [9914] INFO [cf3f4] \{general\} ArangoDB (version 3.10.5 [linux])\cf15\highlight16 >\cf1\highlight2 
+\par \cf15\highlight16 lines 1-28/28 (END)\cf1\highlight2 
+\par \cf0\highlight0 [2]+  Stopped                 systemctl status arangodb3\cf1\highlight2 
+\par \cf0\highlight0 root@nizmdsp01:~# client_loop: send disconnect: Connection reset by peer\cf1\highlight2 
+\par \cf0\highlight0                                                                                                                              \cf6\u10007?\cf1\highlight2 
+\par 
+\par \highlight8  \f11 O\f1  18/04/2023 \cf9\highlight10\u9658?\cf1  \f11\'be\f1  00:42.38 \cf11\highlight12\u9658?\cf1  \f11 1\f1  /home/mobaxterm/\cf9 desktop\cf1  \cf13\highlight14\u9658?\cf1  \f11\'b1\f1  master \cf6\highlight0\u9658?\cf0  ssh -i "My_instance_key.pem" ubuntu@ec2-44-201-183-120.compute-1.amazonaws.com\cf1\highlight2 
+\par \cf0\highlight0 Welcome to Ubuntu 22.04.2 LTS (GNU/Linux 5.15.0-1031-aws x86_64)\cf1\highlight2 
+\par 
+\par \cf0\highlight0  * Documentation:  https://help.ubuntu.com\cf1\highlight2 
+\par \cf0\highlight0  * Management:     https://landscape.canonical.com\cf1\highlight2 
+\par \cf0\highlight0  * Support:        https://ubuntu.com/advantage\cf1\highlight2 
+\par 
+\par \cf0\highlight0   System information as of Mon Apr 17 19:13:16 UTC 2023\cf1\highlight2 
+\par 
+\par \cf0\highlight0   System load:  0.0               Processes:             113\cf1\highlight2 
+\par \cf0\highlight0   Usage of /:   34.7% of 7.57GB   Users logged in:       2\cf1\highlight2 
+\par \cf0\highlight0   Memory usage: 41%               IPv4 address for eth0: 172.31.87.205\cf1\highlight2 
+\par \cf0\highlight0   Swap usage:   0%\cf1\highlight2 
+\par 
+\par \cf0\highlight0  * Ubuntu Pro delivers the most comprehensive open source security and\cf1\highlight2 
+\par \cf0\highlight0    compliance features.\cf1\highlight2 
+\par 
+\par \cf0\highlight0    https://ubuntu.com/aws/pro\cf1\highlight2 
+\par 
+\par \cf0\highlight0  * Introducing Expanded Security Maintenance for Applications.\cf1\highlight2 
+\par \cf0\highlight0    Receive updates to over 25,000 software packages with your\cf1\highlight2 
+\par \cf0\highlight0    Ubuntu Pro subscription. Free for personal use.\cf1\highlight2 
+\par 
+\par \cf0\highlight0      https://ubuntu.com/aws/pro\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Expanded Security Maintenance for Applications is not enabled.\cf1\highlight2 
+\par 
+\par \cf0\highlight0 14 updates can be applied immediately.\cf1\highlight2 
+\par \cf0\highlight0 To see these additional updates run: apt list --upgradable\cf1\highlight2 
+\par 
+\par \cf0\highlight0 Enable ESM Apps to receive additional future security updates.\cf1\highlight2 
+\par \cf0\highlight0 See https://ubuntu.com/esm or run: sudo pro status\cf1\highlight2 
+\par 
+\par 
+\par \cf0\highlight0 *** System restart required ***\cf1\highlight2 
+\par \cf0\highlight0 Last login: Mon Apr 17 18:39:38 2023 from 49.43.200.188\cf1\highlight2 
+\par \cf0\highlight0 ubuntu@nizmdsp01:~$ cd\cf1\highlight2 
+\par \cf0\highlight0 ubuntu@nizmdsp01:~$ sudo -i\cf1\highlight2 
+\par \cf0\highlight0 root@nizmdsp01:~# history\cf1\highlight2 
+\par \cf0\highlight0     1  history\cf1\highlight2 
+\par \cf0\highlight0 root@nizmdsp01:~#\cf1\highlight2 
+\par \pard\ltrpar\cf0\highlight0\f4\fs14 
+\par }
+ 
